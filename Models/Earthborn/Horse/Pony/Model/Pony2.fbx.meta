@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 449d725e12ab52640bd2d5d0565dc60e
+timeCreated: 1468207672
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CON_Belly
+    100002: CON_Root
+    100004: DEF_BackFoot.L
+    100006: DEF_BackFoot.L_end
+    100008: DEF_BackFoot.R
+    100010: DEF_BackFoot.R_end
+    100012: DEF_BackLeg1.L
+    100014: DEF_BackLeg1.R
+    100016: DEF_BackLeg2.L
+    100018: DEF_BackLeg2.R
+    100020: DEF_BackLeg3.L
+    100022: DEF_BackLeg3.R
+    100024: DEF_Chest
+    100026: DEF_FrontFoot.L
+    100028: DEF_FrontFoot.L_end
+    100030: DEF_FrontFoot.R
+    100032: DEF_FrontFoot.R_end
+    100034: DEF_FrontLeg1.L
+    100036: DEF_FrontLeg1.R
+    100038: DEF_FrontLeg2.L
+    100040: DEF_FrontLeg2.R
+    100042: DEF_FrontLeg3.L
+    100044: DEF_FrontLeg3.R
+    100046: DEF_Head
+    100048: DEF_Mane1
+    100050: DEF_Mane2
+    100052: DEF_Mane2_end
+    100054: DEF_Neck
+    100056: DEF_Rear
+    100058: DEF_Tail1
+    100060: DEF_Tail2
+    100062: DEF_Tail3
+    100064: DEF_Tail3_end
+    100066: Pony
+    100068: //RootNode
+    100070: Pony_Rig
+    100072: FK_BackFoot.L
+    100074: FK_BackFoot.L_end
+    100076: FK_BackFoot.R
+    100078: FK_BackFoot.R_end
+    100080: FK_BackLeg2.L
+    100082: FK_BackLeg2.R
+    100084: FK_BackLeg3.L
+    100086: FK_BackLeg3.R
+    100088: FK_FrontFoot.L
+    100090: FK_FrontFoot.L_end
+    100092: FK_FrontFoot.R
+    100094: FK_FrontFoot.R_end
+    100096: FK_FrontLeg2.L
+    100098: FK_FrontLeg2.R
+    100100: FK_FrontLeg3.L
+    100102: FK_FrontLeg3.R
+    100104: IK_BackFoot.L
+    100106: IK_BackFoot.L_end
+    100108: IK_BackFoot.R
+    100110: IK_BackFoot.R_end
+    100112: IK_BackKnee.L
+    100114: IK_BackKnee.L_end
+    100116: IK_BackKnee.R
+    100118: IK_BackKnee.R_end
+    100120: IK_BackLeg2.L
+    100122: IK_BackLeg2.R
+    100124: IK_BackLeg3.L
+    100126: IK_BackLeg3.L_end
+    100128: IK_BackLeg3.R
+    100130: IK_BackLeg3.R_end
+    100132: IK_FrontFoot.L
+    100134: IK_FrontFoot.L_end
+    100136: IK_FrontFoot.R
+    100138: IK_FrontFoot.R_end
+    100140: IK_FrontKnee.L
+    100142: IK_FrontKnee.L_end
+    100144: IK_FrontKnee.R
+    100146: IK_FrontKnee.R_end
+    100148: IK_FrontLeg2.L
+    100150: IK_FrontLeg2.R
+    100152: IK_FrontLeg3.L
+    100154: IK_FrontLeg3.L_end
+    100156: IK_FrontLeg3.R
+    100158: IK_FrontLeg3.R_end
+    100160: VIS_BackKnee.L
+    100162: VIS_BackKnee.L_end
+    100164: VIS_BackKnee.R
+    100166: VIS_BackKnee.R_end
+    100168: VIS_FrontKnee.L
+    100170: VIS_FrontKnee.L_end
+    100172: VIS_FrontKnee.R
+    100174: VIS_FrontKnee.R_end
+    400000: CON_Belly
+    400002: CON_Root
+    400004: DEF_BackFoot.L
+    400006: DEF_BackFoot.L_end
+    400008: DEF_BackFoot.R
+    400010: DEF_BackFoot.R_end
+    400012: DEF_BackLeg1.L
+    400014: DEF_BackLeg1.R
+    400016: DEF_BackLeg2.L
+    400018: DEF_BackLeg2.R
+    400020: DEF_BackLeg3.L
+    400022: DEF_BackLeg3.R
+    400024: DEF_Chest
+    400026: DEF_FrontFoot.L
+    400028: DEF_FrontFoot.L_end
+    400030: DEF_FrontFoot.R
+    400032: DEF_FrontFoot.R_end
+    400034: DEF_FrontLeg1.L
+    400036: DEF_FrontLeg1.R
+    400038: DEF_FrontLeg2.L
+    400040: DEF_FrontLeg2.R
+    400042: DEF_FrontLeg3.L
+    400044: DEF_FrontLeg3.R
+    400046: DEF_Head
+    400048: DEF_Mane1
+    400050: DEF_Mane2
+    400052: DEF_Mane2_end
+    400054: DEF_Neck
+    400056: DEF_Rear
+    400058: DEF_Tail1
+    400060: DEF_Tail2
+    400062: DEF_Tail3
+    400064: DEF_Tail3_end
+    400066: Pony
+    400068: //RootNode
+    400070: Pony_Rig
+    400072: FK_BackFoot.L
+    400074: FK_BackFoot.L_end
+    400076: FK_BackFoot.R
+    400078: FK_BackFoot.R_end
+    400080: FK_BackLeg2.L
+    400082: FK_BackLeg2.R
+    400084: FK_BackLeg3.L
+    400086: FK_BackLeg3.R
+    400088: FK_FrontFoot.L
+    400090: FK_FrontFoot.L_end
+    400092: FK_FrontFoot.R
+    400094: FK_FrontFoot.R_end
+    400096: FK_FrontLeg2.L
+    400098: FK_FrontLeg2.R
+    400100: FK_FrontLeg3.L
+    400102: FK_FrontLeg3.R
+    400104: IK_BackFoot.L
+    400106: IK_BackFoot.L_end
+    400108: IK_BackFoot.R
+    400110: IK_BackFoot.R_end
+    400112: IK_BackKnee.L
+    400114: IK_BackKnee.L_end
+    400116: IK_BackKnee.R
+    400118: IK_BackKnee.R_end
+    400120: IK_BackLeg2.L
+    400122: IK_BackLeg2.R
+    400124: IK_BackLeg3.L
+    400126: IK_BackLeg3.L_end
+    400128: IK_BackLeg3.R
+    400130: IK_BackLeg3.R_end
+    400132: IK_FrontFoot.L
+    400134: IK_FrontFoot.L_end
+    400136: IK_FrontFoot.R
+    400138: IK_FrontFoot.R_end
+    400140: IK_FrontKnee.L
+    400142: IK_FrontKnee.L_end
+    400144: IK_FrontKnee.R
+    400146: IK_FrontKnee.R_end
+    400148: IK_FrontLeg2.L
+    400150: IK_FrontLeg2.R
+    400152: IK_FrontLeg3.L
+    400154: IK_FrontLeg3.L_end
+    400156: IK_FrontLeg3.R
+    400158: IK_FrontLeg3.R_end
+    400160: VIS_BackKnee.L
+    400162: VIS_BackKnee.L_end
+    400164: VIS_BackKnee.R
+    400166: VIS_BackKnee.R_end
+    400168: VIS_FrontKnee.L
+    400170: VIS_FrontKnee.L_end
+    400172: VIS_FrontKnee.R
+    400174: VIS_FrontKnee.R_end
+    4300000: Pony
+    7400000: Pony_Rig|Idle
+    7400002: Pony_Rig|Walk
+    7400004: Pony_Rig|Die
+    7400006: Pony_Rig|Walk0
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Pony
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pony_Rig|Idle
+      takeName: Pony_Rig|Idle
+      firstFrame: 0
+      lastFrame: 338
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pony
+        weight: 1
+      - path: Pony_Rig
+        weight: 1
+      - path: Pony_Rig/CON_Root
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L/DEF_FrontFoot.L_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R/DEF_FrontFoot.R_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2/DEF_Mane2_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L/DEF_BackFoot.L_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R/DEF_BackFoot.R_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3/DEF_Tail3_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pony_Rig|Walk
+      takeName: Pony_Rig|Walk
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pony
+        weight: 1
+      - path: Pony_Rig
+        weight: 1
+      - path: Pony_Rig/CON_Root
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L/DEF_FrontFoot.L_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R/DEF_FrontFoot.R_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2/DEF_Mane2_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L/DEF_BackFoot.L_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R/DEF_BackFoot.R_end
+        weight: 0
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3/DEF_Tail3_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pony_Rig|Die
+      takeName: Pony_Rig|Die
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pony
+        weight: 1
+      - path: Pony_Rig
+        weight: 1
+      - path: Pony_Rig/CON_Root
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.L/DEF_FrontLeg2.L/DEF_FrontLeg3.L/DEF_FrontFoot.L/DEF_FrontFoot.L_end
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_FrontLeg1.R/DEF_FrontLeg2.R/DEF_FrontLeg3.R/DEF_FrontFoot.R/DEF_FrontFoot.R_end
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Chest/DEF_Neck/DEF_Head/DEF_Mane1/DEF_Mane2/DEF_Mane2_end
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.L/DEF_BackLeg2.L/DEF_BackLeg3.L/DEF_BackFoot.L/DEF_BackFoot.L_end
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_BackLeg1.R/DEF_BackLeg2.R/DEF_BackLeg3.R/DEF_BackFoot.R/DEF_BackFoot.R_end
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3
+        weight: 1
+      - path: Pony_Rig/CON_Root/CON_Belly/DEF_Rear/DEF_Tail1/DEF_Tail2/DEF_Tail3/DEF_Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CON_Root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
